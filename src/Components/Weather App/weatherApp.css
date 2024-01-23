@@ -243,7 +243,7 @@
 
 @media only screen and (max-width: 600px) {
   .container {
-    width: 90vw;
+    width: 100vw;
     height: 275vh;
   }
 
@@ -269,7 +269,7 @@
     font-size: small;
   }
   .days{
-    margin: 2vw 2vh;
+    margin: 1vw 1vh;
     height:20vh;
     width: 25vw;
     font-size: small;

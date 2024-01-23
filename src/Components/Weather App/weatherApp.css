@@ -243,7 +243,7 @@
 
 @media only screen and (max-width: 600px) {
   .container {
-    width: 100vw;
+    width: 90vw;
     height: 275vh;
   }
 
@@ -252,18 +252,22 @@
     font-size: 20px; 
   }
   .sports {
+    text-align: center;
+    align-items: center;
     display: block;
   }
   .football-match{
-    width: 75vw;
+    width: 70vw;
   }
   .copyright-container{
     position: absolute;
-    bottom: -178vh;
+    bottom: -175vh;
     left: 10vw;
-    font-size: small;
+    font-size: 12px;
   }
-   .day{
+  .day{
+    align-items: center;
+    text-align: center;
     display: grid;
     grid-template-columns: repeat(3, 1fr); /* Change to three equal-width columns */
     /* gap: 1px; */

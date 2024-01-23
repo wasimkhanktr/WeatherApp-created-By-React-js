@@ -263,20 +263,21 @@
     left: 10vw;
     font-size: small;
   }
-  .day{
+   .day{
     display: grid;
-    grid-template-columns: 1fr auto auto;
+    grid-template-columns: repeat(3, 1fr); /* Change to three equal-width columns */
+    /* gap: 1px; */
     font-size: small;
   }
   .days{
-    margin: 1vw 2vh;
+    margin: 2vh 2vw;
     height:20vh;
-    width: 25vw;
+    width: 24vw;
     font-size: small;
   }
   .days:hover{
     height:20vh;
-    width: 25vw;
+    width: 24vw;
   }
 
   

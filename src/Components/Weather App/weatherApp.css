@@ -265,11 +265,11 @@
   }
   .day{
     display: grid;
-    grid-template-columns: 1fr auto auto;
+    grid-template-columns: 1fr auto auto auto;
     font-size: small;
   }
   .days{
-    margin: 1vw 1vh;
+    margin: 1vw 2vh;
     height:20vh;
     width: 25vw;
     font-size: small;

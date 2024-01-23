@@ -14,13 +14,13 @@ const Today = () => {
   useEffect(() => {
     const search = async () => {
       try {
-        let url = `http://api.weatherapi.com/v1/forecast.json?key=${api_key}&q=${element}&aqi=no&days=1`;
+        let url = `https://api.weatherapi.com/v1/forecast.json?key=${api_key}&q=${element}&aqi=no&days=1`;
         let response = await fetch(url);
         let data = await response.json();
 
         setForecastData(data.forecast.forecastday);
 
-        let surl = `http://api.weatherapi.com/v1/sports.json?key=${api_key}&q=${element}`;
+        let surl = `https://api.weatherapi.com/v1/sports.json?key=${api_key}&q=${element}`;
         let sresponse = await fetch(surl);
         let sdata = await sresponse.json();
         setSportData(sdata.football);

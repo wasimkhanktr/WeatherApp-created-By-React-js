@@ -1,0 +1,284 @@
+.container {
+  width: 80vw;
+  height: 170vh;
+  margin: auto;
+  border-radius: 12px;
+  background-image: url('/public/Assets/bc.jpg');
+  background-size: cover; 
+  background-position: center center; 
+  background-repeat: no-repeat;
+}
+.welcome-container{
+  margin-top: 200px;
+  font-size: 35px;
+  color: white;
+  text-align: center;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-weight: 600;
+}
+.nav button,
+#err button {
+  margin-left: 20px;
+  margin-top: 20px;
+  border-radius: 10px;
+  height: 50px;
+  width: 150px;
+  background-color: #fff;
+  font-weight: 600;
+  font-size: 20px;
+}
+.nav button:hover,
+#err button:hover {
+  transform: translateY(-10px);
+  transition: background 0.5s, transform 0.5s;
+  box-shadow: 10px 10px 10px rgb(243, 4, 4);
+  background-color:red;
+  color: #fff;
+}
+.region,
+.country {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  margin-left: 20px;
+  color: white;
+  font-size: 20px;
+}
+.forcast {
+  color: white;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  margin-left: 20px;
+}
+#today{
+  background-color: rgb(140, 233, 140);
+}
+.forcast button {
+  margin-right: 10px;
+  margin-top: 20px;
+  border-radius: 10px;
+  height: 50px;
+  width: 150px;
+  font-weight: 600;
+  font-size: 20px;
+}
+.forcast button:hover{
+  color: black;
+  transform: translateY(-10px);
+  transition: background 0.5s, transform 0.5s;
+  box-shadow: 10px 10px 10px rgb(4,243,131);
+
+}
+
+.weather-temp {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  margin-left: 20px;
+  justify-content: center;
+  color: white;
+  font-size: 50px;
+  font-weight: 400;
+}
+.max_temp,
+.min_temp,
+.direction_wind,
+.rain,
+.visibility {
+  margin-top: 5px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  margin-left: 20px;
+  color: white;
+  font-size: 20px;
+}
+#err {
+  text-align: center;
+  margin: auto;
+  color: red;
+  top: 150px;
+  position: relative;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+}
+.top-bar {
+  display: flex;
+  justify-content: center;
+  gap: 14px;
+  padding-top: 40px;
+}
+.search-icon,
+.cityInput {
+  display: flex;
+  width: 250px;
+  height: 55px;
+  background-color: #ebfffc;
+  border: none;
+  outline: none;
+  border-radius: 26px;
+  padding-left: 40px;
+  color: #626262;
+  font-size: 20px;
+  font-weight: 400;
+}
+.search-icon {
+  
+  background: url('/public/Assets/search.png') no-repeat center center;
+  background-size: 22px;
+  cursor: pointer;
+  justify-content: center;
+  align-items: center;
+  width: 55px;
+  height: 55px;
+  background-color: #ebfffc;
+  border-radius: 26px;
+  cursor: pointer;
+}
+.search-icon:hover{
+  transform: translateY(-10px);
+  transition: background 0.5s, transform 0.5s;
+  box-shadow: 0px 2px 10px 10px rgb(4, 187, 243);
+}
+.weather-image {
+  margin-top: 10px;
+  display: flex;
+  justify-content: center;
+}
+
+.weather-location {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  margin: 20px;
+  align-items: left;
+  justify-content: center;
+  color: white;
+  font-size: 50px;
+  font-weight: 600;
+}
+.suggestions {
+  font-size: 35px;
+  color: white;
+  position: absolute;
+  left: 600px;
+  top: 150px;
+}
+.data-container {
+  margin-top: 20px;
+  display: flex;
+  color: white;
+}
+.element {
+  margin: auto;
+  display: flex;
+  align-items: flex-start;
+  gap: 12px;
+}
+.data {
+  font-size: 20px;
+  font-weight: 400;
+}
+.text {
+  font-size: 20px;
+  font-weight: 400;
+}
+.time {
+  color: white;
+  font-size: 20px;
+  font-weight: 400;
+}
+.icon {
+  margin-top: 5px;
+}
+.day {
+  position: relative;
+  text-align: center;
+  display: flex;
+  margin-top: 20px;
+  color: black;
+}
+.days {
+  border: 1px solid black;
+  border-radius: 15px;
+  margin-left: 20px;
+  height: 150px;
+  width: 150px;
+  color: black;
+  background-color: #fff;
+  font-size: 15px;
+  font-weight: 600;
+}
+.days:hover{
+  background-color: lightgreen;
+  transform: translateY(-10px);
+  transition: background 0.5s, transform 0.5s;
+  box-shadow: 10px 10px 10px rgb(4,243,131);
+}
+
+.text {
+  font-weight: 600;
+}
+.sport {
+  margin-left: 20px;
+  color: white;
+}
+.sports {
+  display: grid;
+  grid-template-columns: auto auto auto;
+}
+.football-match{
+  margin: 20px;
+  padding-left: 20px;
+  font-size: 18px;
+  font-weight: 600;
+  height: auto;
+  width: 20vw;
+  color: black;
+  background-color: #fff;
+  border-radius: 15px;
+}
+.start {
+  color: green;
+}
+.copyright-container{
+  
+  color: white;
+  font-size: 25px;
+  font-weight: 600;
+  position: absolute;
+  bottom: -70vh;
+  left: 22vw;
+}
+
+@media only screen and (max-width: 600px) {
+  .container {
+    width: 90vw;
+    height: 275vh;
+  }
+
+  .welcome-container {
+    margin-top: 20px; 
+    font-size: 20px; 
+  }
+  .sports {
+    display: block;
+  }
+  .football-match{
+    width: 75vw;
+  }
+  .copyright-container{
+    position: absolute;
+    bottom: -175vh;
+    left: 10vw;
+    font-size: small;
+  }
+  .day{
+    display: grid;
+    grid-template-columns: 1fr auto auto;
+    font-size: small;
+  }
+  .days{
+    margin: 2vw 2vh;
+    height:20vh;
+    width: 25vw;
+    font-size: small;
+  }
+  .days:hover{
+    height:20vh;
+    width: 25vw;
+  }
+
+  
+}
+

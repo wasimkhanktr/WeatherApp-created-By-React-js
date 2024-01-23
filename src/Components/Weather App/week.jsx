@@ -25,7 +25,7 @@ const Week = () => {
   useEffect(() => {
     const search = async () => {
       try {
-        let url = `https://api.weatherapi.com/v1/forecast.json?key=${api_key}&q=${element}&days=7&aqi=no&alerts=no`;
+        let url = `https://api.weatherapi.com/v1/forecast.json?key=${api_key}&q=${element}&days=9&aqi=no&alerts=no`;
         let response = await fetch(url);
         let data = await response.json();
         setForecastData(data.forecast.forecastday);

@@ -23,7 +23,7 @@ const WeatherApp = () => {
           return;
         }
 
-        const url = `http://api.weatherapi.com/v1/search.json?key=${api_key}&q=${searchTerm}`;
+        const url = `https://api.weatherapi.com/v1/search.json?key=${api_key}&q=${searchTerm}`;
         const response = await fetch(url);
         const data = await response.json();
 

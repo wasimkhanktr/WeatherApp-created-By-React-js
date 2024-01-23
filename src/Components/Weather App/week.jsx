@@ -16,12 +16,6 @@ const Week = () => {
     setSelectedDayIndex(index);
     setSelectedDay(day);
   };
-  
-    console.log('wasim index');
-    console.log(selectedDayIndex);
-  
-  
-
   const element = locations.state.element;
 
   const api_key = "4e4d4fcb9eaf47738d0112645241801";

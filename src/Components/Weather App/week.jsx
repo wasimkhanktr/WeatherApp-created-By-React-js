@@ -138,7 +138,7 @@ const Week = () => {
         </div>
       </div>
       <div className="copyright-container">
-      <p>&copy; {new Date().getFullYear()} Weather App. All rights reserved. Powered by Weather App.</p>
+     <p>&copy; {new Date().getFullYear()} Weather App. All rights reserved by @WK❤ Powered by Weather App.</p>
     </div>
     </div>
   );

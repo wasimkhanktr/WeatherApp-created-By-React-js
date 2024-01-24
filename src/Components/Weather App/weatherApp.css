@@ -228,7 +228,7 @@
   .container {
     border-radius: 0;
     width: 100vw;
-    height: 260vh;
+    height: 256vh;
     padding: 0;
     margin: 0;  
   }
@@ -250,7 +250,7 @@
   }
   .copyright-container{
     position: absolute;
-    bottom: -155vh;
+    bottom: -150vh;
     left: 10vw;
     font-size: 9px;
   }

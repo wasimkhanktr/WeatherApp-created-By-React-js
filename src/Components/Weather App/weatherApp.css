@@ -165,7 +165,7 @@
 .days {
   border: 1px solid black;
   border-radius: 15px;
-  margin-left: auto;
+  margin-left: .8vw;;
   height: 22vh;
   width: 8vw;
   color: black;

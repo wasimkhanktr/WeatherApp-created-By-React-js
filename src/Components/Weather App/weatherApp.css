@@ -218,6 +218,7 @@
   bottom: -70vh;
   left: 22vw;
 }
+/* ----------------------------------------------responsive only for mobile--------------------------------------------- */
 
 @media only screen and (max-width: 600px) {
   *{
@@ -227,7 +228,7 @@
   .container {
     border-radius: 0;
     width: 100vw;
-    height: 275vh;
+    height: 260vh;
     padding: 0;
     margin: 0;  
   }
@@ -240,17 +241,18 @@
     display: block;
   }
   .football-match{
+    align-items: center;
     padding: 3px;
     padding-left: 3vw;
     font-size: 15px;
     height: 22vh;
-    width: 70vw;
+    width: 80vw;
   }
   .copyright-container{
     position: absolute;
-    bottom: -175vh;
-    left: 8vw;
-    font-size: 8px;
+    bottom: -155vh;
+    left: 10vw;
+    font-size: 9px;
   }
   .day{
     align-items: center;
@@ -277,8 +279,8 @@
   } 
   .cityInput{
     font-size: small;
-    width: 53vw;
-    padding-left: 5px;
+    width: 50vw;
+    padding-left: 2vw;
   }
 }
 

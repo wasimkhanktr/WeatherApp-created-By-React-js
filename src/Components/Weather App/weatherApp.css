@@ -1,3 +1,4 @@
+
 .container {
   width: 80vw;
   height: 170vh;
@@ -51,6 +52,7 @@
   background-color: rgb(140, 233, 140);
 }
 .forcast button {
+  padding: 0;
   margin-right: 10px;
   margin-top: 20px;
   border-radius: 10px;
@@ -154,46 +156,18 @@
   left: 600px;
   top: 150px;
 }
-.data-container {
-  margin-top: 20px;
-  display: flex;
-  color: white;
-}
-.element {
-  margin: auto;
-  display: flex;
-  align-items: flex-start;
-  gap: 12px;
-}
-.data {
-  font-size: 20px;
-  font-weight: 400;
-}
-.text {
-  font-size: 20px;
-  font-weight: 400;
-}
-.time {
-  color: white;
-  font-size: 20px;
-  font-weight: 400;
-}
-.icon {
-  margin-top: 5px;
-}
 .day {
-  position: relative;
   text-align: center;
   display: flex;
-  margin-top: 20px;
+  margin: 2vh 1vw;
   color: black;
 }
 .days {
   border: 1px solid black;
   border-radius: 15px;
-  margin-left: 20px;
-  height: 150px;
-  width: 150px;
+  margin-left: auto;
+  height: 22vh;
+  width: 8vw;
   color: black;
   background-color: #fff;
   font-size: 15px;
@@ -215,18 +189,22 @@
 }
 .sports {
   display: grid;
-  grid-template-columns: auto auto auto;
+  grid-template-columns: repeat(3, 1fr);
 }
 .football-match{
-  margin: 20px;
-  padding-left: 20px;
+  margin: 1vh 1vw;
+  padding: 0vh 2vw;
   font-size: 18px;
   font-weight: 600;
-  height: auto;
-  width: 20vw;
+  height: 24vh;
+  width: 19vw;
   color: black;
   background-color: #fff;
   border-radius: 15px;
+}
+.football-match *{
+  padding: 0;
+  margin: 2vh 0vw;
 }
 .start {
   color: green;
@@ -242,9 +220,16 @@
 }
 
 @media only screen and (max-width: 600px) {
+  *{
+    padding: 0;
+    margin: 1vh 1vw;
+  }
   .container {
-    width: 90vw;
+    border-radius: 0;
+    width: 100vw;
     height: 275vh;
+    padding: 0;
+    margin: 0;  
   }
 
   .welcome-container {
@@ -252,18 +237,20 @@
     font-size: 20px; 
   }
   .sports {
-    text-align: center;
-    align-items: center;
     display: block;
   }
   .football-match{
+    padding: 3px;
+    padding-left: 3vw;
+    font-size: 15px;
+    height: 22vh;
     width: 70vw;
   }
   .copyright-container{
     position: absolute;
     bottom: -175vh;
     left: 10vw;
-    font-size: 12px;
+    font-size: 9px;
   }
   .day{
     align-items: center;
@@ -271,19 +258,27 @@
     display: grid;
     grid-template-columns: repeat(3, 1fr); /* Change to three equal-width columns */
     /* gap: 1px; */
-    font-size: small;
+    font-size: 12;
   }
   .days{
     margin: 2vh 2vw;
-    height:20vh;
+    height:22vh;
     width: 24vw;
+    font-size: 12px;
+  }
+  /* .days:hover{
+    height:22vh;
+    width: 24vw;
+  } */
+  .forcast button {
+    width: 35vw;
+    padding: 0;
+    margin: 2px;
+  } 
+  .cityInput{
     font-size: small;
+    width: 50vw;
+    padding-left: 2vw;
   }
-  .days:hover{
-    height:20vh;
-    width: 24vw;
-  }
-
-  
 }
 

@@ -250,9 +250,9 @@
   }
   .copyright-container{
     position: absolute;
-    bottom: -158vh;
+    bottom: -160vh;
     left: 10vw;
-    font-size: 9px;
+    font-size: 8px;
   }
   .day{
     align-items: center;
@@ -278,9 +278,8 @@
     margin: 2px;
   } 
   .cityInput{
-    font-size: small;
     width: 50vw;
-    padding-left: 2vw;
+    padding-left: 5vw;
   }
 }
 

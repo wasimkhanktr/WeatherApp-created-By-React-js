@@ -165,7 +165,7 @@
 .days {
   border: 1px solid black;
   border-radius: 15px;
-  margin-left: .8vw;;
+  margin-left: .8vw;
   height: 22vh;
   width: 8vw;
   color: black;
@@ -249,8 +249,8 @@
   .copyright-container{
     position: absolute;
     bottom: -175vh;
-    left: 10vw;
-    font-size: 9px;
+    left: 8vw;
+    font-size: 8px;
   }
   .day{
     align-items: center;

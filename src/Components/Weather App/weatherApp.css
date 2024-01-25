@@ -1,7 +1,8 @@
 
 .container {
   width: 80vw;
-  height: 170vh;
+  min-height: 100hv;
+  height: auto;
   margin: auto;
   border-radius: 12px;
   background-image: url('/public/Assets/bc.jpg');

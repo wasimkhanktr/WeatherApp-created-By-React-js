@@ -87,7 +87,7 @@ const Week = () => {
           {forecastData.map((day,index) => (
             <div  
               key={day.date_epoch}
-              style={{backgroundColor: index === selectedDayIndex ? 'rgb(4,243,131)' : 'rgb(207, 201, 201)'}}
+              style={{backgroundColor: index === selectedDayIndex ? 'rgb(4,243,131)' : 'rgb(139, 137, 137)'}}
               className={`days ${selectedDay === day ? "selected" : ""} ${selectedDayIndex === index ? 'selected' : ''}`}
               onClick={() => handleDayClick(day,index)}
             >

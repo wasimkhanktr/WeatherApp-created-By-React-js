@@ -163,7 +163,6 @@ body{
   top: 150px;
 }
 .day {
-  margin-left:20px;
   text-align: center;
   display: flex;
   margin: 2vh 1vw;
@@ -266,6 +265,7 @@ body{
     font-size: 9px;
   }
   .day{
+    margin-left:20px;
     align-items: center;
     text-align: center;
     display: grid;

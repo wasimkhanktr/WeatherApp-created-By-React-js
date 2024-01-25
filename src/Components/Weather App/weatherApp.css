@@ -1,4 +1,7 @@
-
+body{
+  padding:;
+  margin:;
+}
 .container {
   width: 80vw;
   min-height: 100hv;
@@ -160,6 +163,7 @@
   top: 150px;
 }
 .day {
+  margin-left:20px;
   text-align: center;
   display: flex;
   margin: 2vh 1vw;

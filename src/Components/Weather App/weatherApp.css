@@ -175,12 +175,11 @@ body{
   height: 22vh;
   width: 8vw;
   color: black;
-  background-color: rgb(207, 201, 201);
+  background-color: rgb(139, 137, 137);
   font-size: 15px;
   font-weight: 600;
 }
 .days:hover{
-  background-color: lightgreen;
   transform: translateY(-10px);
   transition: background 0.5s, transform 0.5s;
   box-shadow: 10px 10px 10px rgb(4,243,131);

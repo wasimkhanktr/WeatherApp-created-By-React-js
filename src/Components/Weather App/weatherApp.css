@@ -16,6 +16,7 @@
   text-align: center;
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   font-weight: 600;
+  margin-bottom: 130px;
 }
 .nav button,
 #err button {
@@ -95,6 +96,7 @@
   top: 150px;
   position: relative;
   font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  margin-bottom: 250px;
 }
 .top-bar {
   display: flex;
@@ -208,15 +210,15 @@
 }
 .start {
   color: green;
+  
 }
 .copyright-container{
   
   color: white;
   font-size: 25px;
   font-weight: 600;
-  position: absolute;
-  bottom: -70vh;
-  left: 22vw;
+  text-align: center;
+  position: relative
 }
 /* ----------------------------------------------responsive only for mobile--------------------------------------------- */
 
@@ -228,14 +230,19 @@
   .container {
     border-radius: 0;
     width: 100vw;
-    height: 256vh;
+    min-height: 100vh;
+    height: auto;
     padding: 0;
     margin: 0;  
+  }
+  #err{
+    margin-bottom: 430px;
   }
 
   .welcome-container {
     margin-top: 20px; 
     font-size: 20px; 
+    margin-bottom: 500px;
   }
   .sports {
     display: block;
@@ -249,29 +256,23 @@
     width: 80vw;
   }
   .copyright-container{
-    position: absolute;
-    bottom: -160vh;
-    left: 10vw;
-    font-size: 8px;
+    margin: 5px;
+    text-align: center;
+    font-size: 9px;
   }
   .day{
     align-items: center;
     text-align: center;
     display: grid;
-    grid-template-columns: repeat(3, 1fr); /* Change to three equal-width columns */
-    /* gap: 1px; */
+    grid-template-columns: repeat(3, 1fr); 
     font-size: 12;
   }
   .days{
-    margin: 2vh 2vw;
-    height:22vh;
+    margin: 1vh 1vw;
+    height:15vh;
     width: 24vw;
     font-size: 12px;
   }
-  /* .days:hover{
-    height:22vh;
-    width: 24vw;
-  } */
   .forcast button {
     width: 35vw;
     padding: 0;

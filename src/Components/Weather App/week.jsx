@@ -79,7 +79,7 @@ const Week = () => {
         <h1>Forecast</h1>
         <button onClick={() => {navigate("/today", { replace: true, state: { element } })}}>Today</button>
         <button id="today"
-            onClick={() => {navigate("/week", { replace: true, state: { element } })}}>Next 9 days</button>
+            onClick={() => {navigate("/week", { replace: true, state: { element } })}}>Next 3 days</button>
       </div>
 
       <div>

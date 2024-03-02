@@ -70,7 +70,7 @@ const Today = () => {
         <button id="today" onClick={() => {navigate("/today", { replace: true, state: { element } })}}>Today</button>
         <>
         {forecastData.map((day) => (
-        <button onClick={() => {navigate("/week", {replace: true,state: { element, day }})}}>Next 9 days</button>
+        <button onClick={() => {navigate("/week", {replace: true,state: { element, day }})}}>Next 3 days</button>
         ))}
         </>
       </div>
